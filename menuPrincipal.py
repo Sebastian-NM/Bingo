@@ -1,15 +1,8 @@
 '''
-Proyecto programado 2
-Tema: Gestor de Bingos
-Integrantes:
--Valentina Mende Solano, 2021142085
--Jorge Arturo Guadamuz Godinez, 2021132991
--Daniel Josué Aguilar Gómez, 2020184120
+Segundo Proyecto Programado
+Estudiantes> Sebastian Navarro Martinez & Angela Gonzalez Solano
+II semestre - 2021
 '''
-
-
-
-#Inicio de Imports
 from tkinter import *
 import generarCartones
 import consultarCarton
@@ -18,15 +11,11 @@ import enviarCartones
 import iniciarJuego
 import graficos
 import logica as logic
-#Fin de Imports
-
-
 
 #Inicio variables globales
 #menuPrincipal (str)
 menuPrincipal="";
 #Fin variables globales
-
 
 
 '''
@@ -43,7 +32,6 @@ def generarCartonesMenu():
     menuPrincipal.destroy()
     generarCartones.inicio()
 #Fin del algoritmo generarCartonesMenu()
-
 
 
 '''
@@ -64,7 +52,6 @@ def consultarCartonMenu():
 #Fin del algoritmo consultarCartonMenu()
 
 
-
 '''
 Entradas:
 - menuPrincipal
@@ -81,8 +68,6 @@ def registrarJugadorMenu():
     #se abre la interfaz registrarJugador
     registrarJugador.inicio()
 #Fin del algoritmo registrarJugadorMenu()
-
-
 
 
 '''
